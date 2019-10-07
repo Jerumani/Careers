@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students Module</title>
+    <style>
+        body{
+            background: url(wallp.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            width: 370px;
+            height: 500px;
+
+            border: 1px solid black;
+
+            margin: 0 auto;
+            padding: 5px;
+            font-size: 20px;
+            width: 70%;
+            height: 50%;
+            font-family: "sans-serif";
+            align-content: left;
+        }
+        * {box-sizing: border-box;}
+
+
+
+        /* Add an active class to highlight the current page */
+        .active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+
+
+
+
+
+        h1{
+            font-family: "SansSerif";
+            align-content: left;
+            font-size: 50px;
+
+        }
+        ul{
+
+        }
+
+        h2{
+            font-family:  sans-serif;
+            align-content: left ;
+            font-size: 40px;
+            border-bottom: 2px solid black ;
+
+
+        }
+    </style>
+</head>
+<body>
+
+<div name="Adminports">
+    <ul name="ads">
+    <li><a href="Adminportal.html" class="active">Home</a></li>
+        <li> <a href="adminupdate.php"> Update Institutions</a></li>
+        <li><a href="Adminnstudupdate.php">View Registered Students</a></li>
+        <li><a href="InstRegister.php">Register Institutions</a></li>
+        <li><a href="Students.html">View Students Portal</a></li>
+        <li><a href="http://mycareer.qhub.com/signin/">Q&A Forum</a> </li>
+
+
+    </ul>
+</div>
+
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+</body>
+</html>

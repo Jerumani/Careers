@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Career Questionnaire</title>
+    <script src="Questionnaire.js"></script>
+    <style>
+        body {
+            background: url(wallp.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            width: 370px;
+            height: 500px;
+
+            border: 1px solid black;
+
+            margin: 0 auto;
+            padding: 5px;
+            font-size: 20px;
+            width: 70%;
+            height: 50%;
+            font-family: "SansSerif";
+            align-content: left;
+        }
+        h2 {
+            margin: 5px 0;
+        }
+        #wrapper {
+            width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 10px 15px;
+            border-radius: 10px;
+        }
+        input {
+            margin: 5px 10px;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px;
+            margin: 20px 0;
+            color: white;
+            border: 0;
+            border-radius: 10px;
+            border-bottom: 3px solid #333;
+        }
+        #submit {
+            background: green;
+        }
+        #reset {
+            background: red;
+        }
+        #answer {
+            border: 1px dashed #ccc;
+            background: #eee;
+            padding: 10px;
+        }
+        </style>
+</head>
+
+<div id="wrapper">
+    <h1>What Careers Should You Consider?</h1>
+    <p>Take this questionnaire to find out!</p>
+
+    <form id="quiz">
+        <!-- Question 1 -->
+        <h2>Solve math problems?</h2>
+        <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
+        <!-- The value is which answer the choice corresponds to. -->
+        <label><input type="radio" name="q1" value="c1">
+         Yes
+        </label><br />
+        <label><input type="radio" name="q1" value="c2">
+            No
+
+
+        </label><br />
+
+        <!-- Question 2 -->
+        <h2>Start or run a business?</h2>
+        <!-- Here are the choices for the second question. Notice how each input tag has the same name (q2), but a different name than the previous question. -->
+        <label><input type="radio" name="q2" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q2" value="c2">
+           No
+        </label><br />
+
+        <!-- Question 3 -->
+        <h2>Learn computer software programs?</h2>
+        <!-- Choices for the third question -->
+        <label><input type="radio" name="q3" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q3" value="c2">
+        No
+        </label><br />
+
+
+        <!-- Question 4 -->
+        <h2>Use computer software to design art?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q4" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q4" value="c2">
+           No
+        </label><br />
+
+        <h2>Learn the legal system?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q5" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q5" value="c2">
+            No
+        </label><br />
+
+        <h2>Serve the community and keep it safe?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q6" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q6" value="c2">
+            No
+        </label><br />
+
+        <h2>Critique art, music, or performances?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q7" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q7" value="c2">
+            No
+        </label><br />
+
+        <h2>Bake or design cakes?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q8" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q8" value="c2">
+            No
+        </label><br />
+
+        <h2>Teach people new skills?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q9" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q9" value="c2">
+            No
+        </label><br />
+
+        <h2>Write a blog, magazine article or novel?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q10" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q10" value="c2">
+            No
+        </label><br />
+
+        <h2>Observe human behavior?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q11" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q11" value="c2">
+            No
+        </label><br />
+
+        <h2>Discover why chemicals react to one another?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q12" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q13" value="c2">
+            No
+        </label><br />
+
+        <h2>Use math, science, and technology?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q14" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q14" value="c2">
+            No
+        </label><br />
+
+        <h2>Fix , build, or assemble various items?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q15" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q15" value="c2">
+            No
+        </label><br />
+
+        <h2>Take care of people , even strangers?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q16" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q16" value="c2">
+            No
+        </label><br />
+
+        <h2>Supervise, hire and mentor others?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q17" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q17" value="c2">
+            No
+        </label><br />
+
+        <h2>Learn statistics and accounting?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q18" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q18" value="c2">
+            No
+        </label><br />
+
+        <h2>Code an app or website?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q19" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q19" value="c2">
+            No
+        </label><br />
+
+        <h2>Design the look and feel of a website?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q20" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q20" value="c2">
+            No
+        </label><br />
+
+        <h2>Study courses in law?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q21" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q21" value="c2">
+            No
+        </label><br />
+
+        <h2>Help people during an emergency?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q22" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q23" value="c2">
+            No
+        </label><br />
+
+        <h2>Prepare a press release or write a commercial?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q24" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q24" value="c2">
+            No
+        </label><br />
+
+        <h2>Study ethics or philosophy</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q25" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q25" value="c2">
+            No
+        </label><br />
+
+        <h2>Learn a trade?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q26" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q26" value="c2">
+            No
+        </label><br />
+
+        <h2>Learn how the body functions?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q27" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q27" value="c2">
+            No
+        </label><br />
+
+        <h2>Troubleshoot technology issues?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q28" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q28" value="c2">
+            No
+        </label><br />
+
+        <h2>Enforce federal,state and local laws?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q29" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q29" value="c2">
+            No
+        </label><br />
+
+        <h2>Paint, draw or make sculptures?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q30" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q30" value="c2">
+            No
+        </label><br />
+
+        <h2>Learn another language?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q31" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q31" value="c2">
+            No
+        </label><br />
+
+        <h2>Research other cultures and religions?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q32" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q32" value="c2">
+            No
+        </label><br />
+
+        <h2>Solve world issues using science?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q33" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q33" value="c2">
+            No
+        </label><br />
+
+        <h2>Create and build machines or structures?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q34" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q34" value="c2">
+            No
+        </label><br />
+
+        <h2>Learn how to invest money?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q35" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q35" value="c2">
+            No
+        </label><br />
+
+        <h2>Understand world events or politics?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q36" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q36" value="c2">
+            No
+        </label><br />
+
+        <h2>Advise people about healthy lif habits?</h2>
+        <!-- Choices for the fourth question -->
+        <label><input type="radio" name="q37" value="c1">
+            Yes
+        </label><br />
+        <label><input type="radio" name="q37" value="c2">
+            No
+        </label><br />
+
+
+
+
+
+
+
+
+
+
+
+        <button type="submit" id="submit" onclick="">Submit Your Answers</button>
+
+    </form></div>

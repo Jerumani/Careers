@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LoginAs</title>
+    <style>
+        body{
+            background: url(Registermage.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            width: 370px;
+            height: 500px;
+
+            border: 1px solid black;
+
+            margin: 0 auto;
+            padding: 5px;
+            font-size: 20px;
+            width: 70%;
+            height: 50%;
+            font-family: "Cooper Black";
+            align-content: left;
+        }
+        * {box-sizing: border-box;}
+        .btn-group button {
+            background-color: #4CAF50; /* Green background */
+            border: 1px solid green; /* Green border */
+            color: white; /* White text */
+            padding: 10px 24px; /* Some padding */
+            cursor: pointer; /* Pointer/hand icon */
+            width: 50%; /* Set a width if needed */
+            display: block; /* Make the buttons appear below each other */
+        }
+
+        .btn-group button:not(:last-child) {
+            border-bottom: none; /* Prevent double borders */
+        }
+
+        /* Add a background color on hover */
+        .btn-group button:hover {
+            background-color: #3e8e41;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Log in as...</h1>
+<div class="btn-group">
+    <button ><a href="logmein.php">STUDENT</a></button>
+
+    <button><a href="InstitutionLogin.php">INSTITUTION</a></button>
+    <button><a href="loginAdmin.php">ADMIN</a> </button>
+</div>
+</div>
+
+</body>
+</html>

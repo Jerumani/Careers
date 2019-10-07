@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students Module</title>
+    <style>
+        body{
+            background: url(Instback.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            width: 370px;
+            height: 500px;
+
+            border: 1px solid black;
+
+            margin: 0 auto;
+            padding: 5px;
+            font-size: 20px;
+            width: 70%;
+            height: 50%;
+            font-family: "sans-serif";
+            align-content: left;
+        }
+        * {box-sizing: border-box;}
+
+
+
+        /* Add an active class to highlight the current page */
+        .active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+
+
+
+
+
+        h1{
+            font-family: "Serif";
+            align-content: left;
+            font-size: 50px;
+
+        }
+        ul{
+
+        }
+
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            align-content: left ;
+            font-size: 40px;
+            border-bottom: 2px solid black ;
+
+
+        }
+    </style>
+</head>
+<body>
+
+<div name="Instports">
+    <ul name="ads">
+        <li><a href="Institution%20portal.html" class="active">Home</a></li>
+        <li><a href="institute-Institutionview.html">View Institutions</a></li>
+        <li><a href="Instituteview.php">Update My Information</a></li>
+        <li><a href="http://mycareer.qhub.com/sign_up/">Q&A Forum</a></li>
+
+    </ul>
+</div>
+
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+</body>
+</html>
